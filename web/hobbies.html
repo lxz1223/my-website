@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>我的兴趣爱好</title>
+    <style>
+      body {
+        background-color: #f8f9fa;
+        font-family: "微软雅黑", serif;
+        margin: 0;
+        padding: 0;
+        color: #333;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .header {
+        text-align: center;
+        padding: 30px 0;
+      }
+      .header h1 {
+        color: #5a6b8c;
+        margin: 0;
+      }
+      .back {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .back a {
+        text-decoration: none;
+        color: #5a6b8c;
+        padding: 6px 12px;
+        border: 1px solid #5a6b8c;
+        border-radius: 4px;
+        font-size: 0.9em;
+      }
+      .back a:hover {
+        background-color: #f0f2f5;
+      }
+      .hobby-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 30px;
+        margin-top: 40px;
+      }
+      .hobby-item {
+        background-color: white;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+      }
+      .hobby-item img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+      .hobby-info {
+        padding: 20px;
+      }
+      .hobby-info h3 {
+        color: #5a6b8c;
+        margin-top: 0;
+      }
+      .hobby-info p {
+        line-height: 1.6;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>我的兴趣爱好</h1>
+      </div>
+
+      <div class="back">
+        <a href="index.html">返回主页</a>
+      </div>
+
+      <div class="hobby-list">
+        <div class="hobby-item">
+          <img src="../image/reading.png" alt="读书" />
+          <div class="hobby-info">
+            <h3>读书</h3>
+            <p>
+              我喜欢在安静的午后或睡前阅读，各类书籍都有所涉猎。阅读不仅能增长知识，更能让我在喧嚣中找到内心的平静。作为ISTJ，我习惯做读书笔记，整理书中的要点和自己的思考。
+            </p>
+          </div>
+        </div>
+
+        <div class="hobby-item">
+          <img src="../image/music.png" alt="音乐" />
+          <div class="hobby-info">
+            <h3>听音乐</h3>
+            <p>
+              音乐是我生活中不可或缺的陪伴，没有特别的偏爱。不同的心境会选择不同的音乐，让旋律帮助我放松或集中注意力。
+            </p>
+          </div>
+        </div>
+
+        <div class="hobby-item">
+          <img src="../image/dancing.png" alt="舞蹈" />
+          <div class="hobby-info">
+            <h3>舞蹈</h3>
+            <p>
+              曾经学习过中国舞，这段经历培养了我的节奏感和身体协调性。虽然现在练习不多，但舞蹈让我学会了用身体表达情感，也锻炼了我的专注力和毅力。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
